@@ -69,6 +69,7 @@ const webpackConfig = {
             options: {
               sourceMap: isDev,
               importLoaders: 1,
+              url: false,
             },
           },
           {
@@ -91,6 +92,7 @@ const webpackConfig = {
             options: {
               sourceMap: isDev,
               importLoaders: 2,
+              url: false,
             },
           },
           {
